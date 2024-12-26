@@ -1,0 +1,13 @@
+span {
+    font-weight: bold;
+}
+
+.survol:hover {
+    transform: scale(1.05);
+}
+
+.survol {
+    transition: transform 0.3s;
+    width: 410px;
+    height: 500px;
+}

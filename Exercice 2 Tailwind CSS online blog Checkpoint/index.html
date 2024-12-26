@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Développement Web et Mobile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <script src="https://kit.fontawesome.com/6c06f01f57.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- En-tête -->
+  <header class="bg-[#1f2a38] text-white p-2 flex justify-between items-center">
+    <div class="text-2xl font-bold">DevBlog</div>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a href="#" class="hover:bg-blue-500 hover:text-white hover:font-bold px-1 py-1 rounded-lg">Accueil</a></li>
+        <li><a href="#articles" class="hover:bg-blue-500 hover:text-white hover:font-bold px-1 py-1 rounded-lg">Articles</a></li>
+        <li><a href="#contact" class="hover:bg-blue-500 hover:text-white hover:font-bold px-1 py-1 rounded-lg">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section des articles vedettes -->
+  <section id="articles" class="py-8 my-10">
+    <h2 class="text-2xl font-bold mb-8 ml-20">Articles en vedette</h2>
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article1">
+            <img src="image/Introduction-au-developpement-Web.webp" alt="Article 1" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Introduction au Développement Web</h3>
+                <p class="mt-2">Découvrez les bases du développement web et comment créer votre premier site web...</p>
+                <span class="text-blue-500">Catégorie: Web</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article2">
+            <img src="image/les meilleures pratiques du developpement mobile.jpg" alt="Article 2" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Les Meilleures Pratiques du Développement Mobile</h3>
+                <p class="mt-2">Apprenez les meilleures pratiques pour développer des applications mobiles performantes...</p>
+                <span class="text-green-500">Catégorie: Mobile</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article3">
+            <img src="image/frameworks js pour le developpement web.jpg" alt="Article 3" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Frameworks JS pour le Développement Web</h3>
+                <p class="mt-2">Explorez les frameworks JavaScript populaires pour le développement web moderne...</p>
+                <span class="text-yellow-500">Catégorie: JavaScript</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article4">
+            <img src="image/vue.js vs react lequel choisir.jpg" alt="Article 4" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Vue.js vs React: Lequel Choisir?</h3>
+                <p class="mt-2">Une comparaison détaillée des deux frameworks JavaScript populaires Vue.js et React...</p>
+                <span class="text-yellow-500">Catégorie: JavaScript</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article5">
+            <img src="image/introduction a node js.jpg" alt="Article 5" class="w-full">
+            <div class="p-4"> <h3 class="text-lg font-bold">Introduction à Node.js</h3>
+                <p class="mt-2">Comprendre les bases de Node.js et comment il révolutionne le développement côté serveur...</p>
+                <span class="text-blue-500">Catégorie: Web</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article6">
+            <img src="image/le developpement mobile avec flutter.webp" alt="Article 6" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Le Développement Mobile avec Flutter</h3>
+                <p class="mt-2">Découvrez les avantages de Flutter pour créer des applications mobiles cross-platform...</p>
+                <span class="text-green-500">Catégorie: Mobile</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article7">
+            <img src="image/Developpement-dApplications-Web-en-2024.png" alt="Article 7" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Les Outils de Développement Web en 2024</h3>
+                <p class="mt-2">Une revue des meilleurs outils de développement web disponibles en 2024...</p>
+                <span class="text-blue-500">Catégorie: Web</span>
+            </div>
+        </div>
+        <div class="bg-white shadow-md rounded-md overflow-hidden survol" id="article8">
+            <img src="image/creer des animations web avec css.jpg" alt="Article 8" class="w-full">
+            <div class="p-4">
+                <h3 class="text-lg font-bold">Créer des Animations Web avec CSS</h3>
+                <p class="mt-2">Apprenez à ajouter des animations époustouflantes à vos sites web avec CSS...</p>
+                <span class="text-blue-500">Catégorie: Web</span>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="container grid grid-cols-2 gap-4 mx-auto my-10">
+
+  <!-- Section des catégories -->
+  <section class="flex items-center my-10">
+    <div class="container mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Catégories</h2>
+      <div class="flex justify-center space-x-4">
+        <span class="bg-blue-500 text-white px-3 py-1 rounded-full">Web</span>
+        <span class="bg-green-500 text-white px-3 py-1 rounded-full">Mobile</span>
+        <span class="bg-red-500 text-white px-3 py-1 rounded-full">JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section des articles récents -->
+  <section class="my-8">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-bold mb-4">Articles Récents</h2>
+        <ul>
+            <li class="mb-2">
+                <a href="#article1" class="text-lg font-semibold hover:underline">Développement Web en 2024</a>
+                <p class="text-sm text-gray-600">Publié le 25 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="" class="text-lg font-semibold hover:underline">Pourquoi Utiliser React Native pour les Applications Mobiles</a>
+                <p class="text-sm text-gray-600">Publié le 20 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#article4" class="text-lg font-semibold hover:underline">Vue.js vs React: Lequel Choisir ?</a>
+                <p class="text-sm text-gray-600">Publié le 18 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#article5" class="text-lg font-semibold hover:underline">Introduction à Node.js</a>
+                <p class="text-sm text-gray-600">Publié le 15 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#article6" class="text-lg font-semibold hover:underline">Le Développement Mobile avec Flutter</a>
+                <p class="text-sm text-gray-600">Publié le 10 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#article7" class="text-lg font-semibold hover:underline">Les Outils de Développement Web en 2024</a>
+                <p class="text-sm text-gray-600">Publié le 5 Décembre 2024</p>
+            </li>
+            <li class="mb-2">
+                <a href="#article8" class="text-lg font-semibold hover:underline">Créer des Animations Web avec CSS</a>
+                <p class="text-sm text-gray-600">Publié le 1 Décembre 2024</p>
+            </li>
+        </ul>
+    </div>
+  </section>
+
+  </div>
+
+    <!-- Formulaire d'abonnement à la lettre d'information -->
+    <section class="py-8 bg-gray-100">
+        <div class="container mx-auto text-center">
+          <h2 class="text-2xl font-bold mb-4">Abonnez-vous à notre newsletter</h2>
+          <form class="max-w-md mx-auto">
+            <input type="email" class="w-full p-2 border border-gray-300 rounded mb-4" placeholder="Votre email" required>
+            <button class="w-full bg-blue-500 text-white py-2 hover:bg-red-600 rounded">S'abonner</button>
+          </form>
+        </div>
+      </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-2">
+    <div class="container mx-auto flex justify-between items-center">
+      <p class="text-sm">&copy; 2024 DevBlog. Tous droits réservés.</p>
+      <div class="flex space-x-4">
+        <a href="https://www.facebook.com/profile.php?id=61556560185637" target="_blank" class="hover:font-bold hover:text-blue-500">Facebook</a>
+        <a href="https://github.com/AbegaTheo" target="_blank" class="hover:font-bold hover:text-blue-500">GitHub</a>
+        <a href="https://www.linkedin.com/in/abel-agoh-a1a731158/" target="_blank" class="hover:font-bold hover:text-blue-500">LinkedIn</a>
+      </div>
+    </div>
+  </footer>  
+
+</body>
+</html>

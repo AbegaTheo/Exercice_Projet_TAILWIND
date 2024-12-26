@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Section en tête -->
+    <header class="bg-white shadow-md py-4 fixed top-0 left-0 w-full lg:w-full md:w-full sm:w-screen xs:w-screen">
+        <div class="container mx-auto flex justify-between items-center max-w-screen-xl flex flex-wrap py-0">
+            <a href="#accueil" class="flex items-center space-x-3">
+                <h1 class="text-2xl font-bold">ABEL <span class="text-white bg-blue-500 px-1 py-1 rounded-lg">AGOH</span></h1>
+            </a>
+            <nav class="space-x-4">
+                <a href="#accueil" class="text-gray-700 font-semibold hover:text-blue-500">Accueil</a>
+                <a href="#competences" class="text-gray-700 font-semibold hover:text-blue-500">Compétences</a>
+                <a href="#projets" class="text-gray-700 font-semibold hover:text-blue-500">Projets</a>
+                <a href="#contact" class="text-gray-700 font-semibold hover:text-blue-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Section héros -->
+    <section id="accueil" class="bg-cover bg-center w-full h-screen" style="background-image: url('image/developpeur-web-datascientest-1024x585.jpg'); background-size: cover; background-position: center; height: 100vh; display: flex; align-items: center; justify-content: center; color: white;">
+        <div class="container mx-auto flex flex-col items-center justify-center h-full text-center">
+            <h2 class="text-4xl lg:text-6xl text-black font-bold">Bienvenue à mon portfolio</h2>
+            <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                <a href="#competences" class="flex items-center space-x-3">
+                    <h1 class="text-2xl font-bold mt-4 px-3 py-3 text-white bg-blue-500 px-1 py-1 rounded-2xl hover:bg-[#083f87] hover:text-white hover:shadow-lg">VOIR MES COMPETENCES</h1>
+                </a>
+                <a href="https://drive.google.com/file/d/1aTzONPEMgTJRyK_ImgraG3tJJgKzzl15/view?usp=drive_link" target="_blank" class="flex items-center space-x-3">
+                    <h1 class="text-2xl font-bold mt-4 px-3 py-3 text-white bg-blue-500 px-1 py-1 rounded-2xl hover:bg-[#083f87] hover:text-white hover:shadow-lg">TELECHARGER MON CV</h1>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section id="competences" class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-bold mb-8">Mes Compétences</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-4 shadow-md rounded">
+                    <h4 class="text-xl font-bold mb-2">Compétences Techniques</h4>
+                    <ul class="list-disc list-inside">
+                        <li><span class="font-semibold">langage de programmation :</span> HTML, CSS, JavaScript</li>
+                        <li><span class="font-semibold">frameworks et bibliothèques :</span> React, Angular, Vue.js, Bootstrap, Tailwind CSS</li>
+                        <li><span class="font-semibold">Bases de données :</span> MySQL, NoSQL, MongoDB, Firebase, etc</li>
+                        <li><span class="font-semibold">Système d'exploitation :</span> Linux, Windows</li>
+                        <li><span class="font-semibold">Environnement de travail :</span> Visual Studio Code, Sublime Text, Xcode</li>
+                        <li><span class="font-semibold">Autres outils et technologies :</span> Git, GitHub</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded">
+                    <h4 class="text-xl font-bold mb-2">Compétences en Développement Web</h4>
+                    <ul class="list-disc list-inside">
+                        <li>Conception de sites web responsives</li>
+                        <li>Développementde sites web dynamiques avec JavaScript et les frameworks associés</li>
+                        <li>Intégration de bases de données pour stocker et récupérer des données</li>
+                        <li>Mise en oeuvre de la sécurité et de la protection des données</li>
+                        <li>Optimisation des performances et de la vitesse de chargement des sites web<li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded">
+                    <h4 class="text-xl font-bold mb-2">Compétences en Développement Mobile</h4>
+                    <ul class="list-disc list-inside">
+                        <li>Conception et développement d'applications mobiles pour iOS et Android</li>
+                        <li>Utilisation de frameworks et bibliothèques pour le développement mobile</li>
+                        <li>Intégration de fonctionnalités telles que la localisation, la camera, la galerie, etc</li>
+                        <li>Mise en oeuvre de la sécurité et de la protection des données</li>
+                        <li>Optimisation des performances et de la vitesse de chargement des applications mobiles<li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded">
+                    <h4 class="text-xl font-bold mb-2">Compétences en Gestion de Projet</h4>
+                    <ul class="list-disc list-inside">
+                        <li>Planifictaon et gestion de projets de développement</li>
+                        <li>Utilisationde méthodes agiles pour le développement de logiciels</li>
+                        <li>Gestion de l'équipe et des ressources</li>
+                        <li>Suivi et analyse des compétences</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded">
+                    <h4 class="text-xl font-bold mb-2">Compétences en Communication</h4>
+                    <ul class="list-disc list-inside">
+                        <li>Communication efficace et professionnelle avec les clients et les équipes de développement</li>
+                        <li>Présentation de projets et de résultats</li>
+                        <li>Rédaction de documentation technique et de rapports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rubrique Projets -->
+    <section id="projets" class="py-16">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-semibold mb-8">Mes Projets</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="survol bg-white p-5 shadow-md rounded">
+                    <img src="image/projet/projet html.png" alt="Projet 1" class="mb-4">
+                    <h4 class="text-xl font-bold mb-2"> Exercice de Projet HTML</h4>
+                    <p class="mb-5">Un exercice de projet HTML qui a pour but de mettre en pratique mes connaissances en HTML.<br/>
+                    Cet exercice consistait en la création d'une page de restaurant qui présente des menus en utilisant les balises HTML appropriées et en ajoutant des liens et des listes pour les menus.
+                    </p>
+                    <p><a href="https://abegatheo.github.io/Exercice_Projet_HTML_2/" target="_blank" class="text-xl font-bold mt-4 text-white bg-blue-500 mt-5 px-1 py-1 rounded-md hover:bg-[#083f87] hover:text-white hover:shadow-lg">Voir le projet</a></p>
+                </div>
+                <div class="survol bg-white p-4 shadow-md rounded">
+                    <img src="image/projet/projet css.png" alt="Projet 2" class="mb-4">
+                    <h4 class="text-xl font-bold mb-2">Exercice de Projet CSS</h4>
+                    <p class="mb-5">Un exercice de projet CSS qui a pour but d'appliquer du syle CSS à une page HTML. <br/>
+                    Cet exercice consistait en la mise en place d'une page HTML avec du style CSS.<br/></p>
+                    <a href="https://abegatheo.github.io/Exercice_Projet_CSS/" target="_blank" class="text-xl font-bold mt-4 text-white bg-blue-500 mt-5 px-1 py-1 rounded-md hover:bg-[#083f87] hover:text-white hover:shadow-lg">Voir le projet</a>
+                </div>
+                <div class="survol bg-white p-4 shadow-md rounded">
+                    <img src="image/projet/projet bootstrap.png" alt="Projet 3" class="mb-4">
+                    <h4 class="text-xl font-bold mb-2">Exercice de Projet BOOTSTRAP</h4>
+                    <p class="mb-5">Un exercice de projet Bootstrap qui a pour but d'appliquer du syle Bootstrap CSS à une page HTML. <br/>
+                    Cet exercice consistait en la mise en place d'une page web de Boutique en ligne présentant des articles et cela avec du style Bootstrap CSS.<br/></p>
+                    <a href="https://abegatheo.github.io/Exercice_Projet_BOOTSTRAP_2/" target="_blank" class="text-xl font-bold mt-4 text-white bg-blue-500 mt-5 px-1 py-1 rounded-md hover:bg-[#083f87] hover:text-white hover:shadow-lg">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section id="contact" class="py-16 bg-gray-200">
+        <div class="container mx-auto">
+            <h3 class="text-3xl font-semibold mb-8">Contactez-moi</h3>
+            <form action="#" method="POST" class="bg-white p-6 shadow-md rounded">
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Nom</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full border border-gray-300 rounded-md p-2">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full border border-gray-300 rounded-md p-2">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="message" class="mt-1 block w-full border border-gray-300 rounded-md p-2"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <p class="text-sm">&copy; 2024 Abel AGOH | Tous droits réservés.</p>
+            <div class="space-x-4">
+                <a href="https://www.facebook.com/profile.php?id=61556560185637" class="hover:text-blue-400" target="_blank">Facebook</a>
+                <a href="https://github.com/AbegaTheo" class="hover:text-blue-400" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/abel-agoh-a1a731158/" class="hover:text-blue-400" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
